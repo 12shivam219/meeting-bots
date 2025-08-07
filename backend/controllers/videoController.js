@@ -1,11 +1,3 @@
-meeting-bot/
-├── shared_videos/
-│   ├── processed/
-│   └── uploads/
-├── docker-compose.yml
-├── .env.example
-└── README.md
-
 // backend/controllers/videoController.js
 const Video = require('../models/Video');
 const VideoProcessor = require('../services/VideoProcessor');
